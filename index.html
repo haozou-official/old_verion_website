@@ -31,31 +31,43 @@
         I'm a research assistant at the <a href="http://dmr.cs.umn.edu/" title="UMN Data Analysis and Management Research Group">UMN Data Analysis and Management Research Group</a>, supervised by <a href="https://scholar.google.com/citations?user=Y4J5SOwAAAAJ&hl=en" title="Prof. Jaideep Srivastava">Prof. Jaideep Srivastava</a> since Fall 2020.
         In Summer 2020, I was supervised by <a href="https://scholar.google.com/citations?user=nq7tuDkAAAAJ&hl=en" title="Prof. Mujdat Cetin">Prof. Mujdat Cetin</a> at the <a href="http://labs.sabanciuniv.edu/spis/" title="Signal Processing and Information Systems Laboratory">Signal Processing and Information Systems Laboratory</a> in University of Rochester.</p>
         
-        <p>My current research focuses on Natural Language Processing and text classification, specifically, stance detection in Social Media. My research interests are NLP, Machine Learning
-        and Data Mining.</p>
+        <p>My research interest includes Natural Language Processing, Machine Learning,  and Data Mining. My current research focuses on NLP and text classification, specifically, Stance Detection for political affiliation while applying concepts of weakly supervision, reinforcement learning and knowledge graph and 
+          making sense of data in social media. Moreover, we're extremely interested in the reasons behind people's stance, then tracing back to the features of the model to create Trustworthy AI system (Explainable AI).</p>
         
         <h2>Experience</h2>
         <dl>
-          <img class="img-fluid z-depth-1 rounded" src="/files/umn.png">
+          <img class="img-fluid z-depth-1 rounded" src="/files/umn.png" width='135' height='YYY'>
           <dt>Sept. 2019 - : University of Minnesota, Twin Cities</dt>
           <dd>B.S., Computer Science</dd>
-          <dd>Advisor: Jaideep Srivastava</dd>
+          <dd>Advisor: <a href="https://scholar.google.com/citations?user=Y4J5SOwAAAAJ&hl=en" title="Jaideep Srivastava">Jaideep Srivastava</a></dd>
           
+          <img class="img-fluid z-depth-1 rounded" src="/files/rochester.png" width='135' height='YYY'>
           <dt>Jun. 2020 - Oct. 2020: University of Rochester, New York</dt>
           <dd>Research Intern</dd>
-          <dd>Advisor: Mujdat Cetin</dd>
+          <dd>Advisor: <a href="https://scholar.google.com/citations?user=nq7tuDkAAAAJ&hl=en" title="Mujdat Cetin">Mujdat Cetin</a></dd>
         </dl>
 
         <h2>Research Projects</h2>
         
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+          <h3>NLP in Social Media</h3>
+          <p>We are interested in stance detection in social media for political affiliation. Stance Detection means automatically detecting whether
+          the author of a piece of text is in favor of the given target, which benefits for information retrieval, text summerization, etc. Since manually labeling
+          is extremely time consuming and tidious, we mainly focus on weakly supervision and semi-supervised learning. 
+            Sometimes text may not express explicity an attitude towards a target, and weakly learning may come into
+            noisy labelling issue, in this case, topic-aware methods are needed like using reinforced model to incorporate target-related or cross-target info and then eliminate noisy instances.
+  
+            We are searching the possibilites of transfer learning and knowledge graph
+            for our purpose as well, like feeding semantic-emotion heterogeneous graph constructed from external semantic
+            and emotion lexicons into GraphCNN to learn external connections thus enhancing cross-target stance detection. 
+            Besides, we extend the binary classification by Valence Score to see the degree of people's stance and sentiment towards the target. Right now, we are
+            brainstroming a good research direction related and try to come out some publishable research output this coming Spring.</p>
+          <h3>EEG Signal Processing by Deep Learning</h3>
+          <p>EEG signal processing connects heavily with Brain-Computer Interaction. People already have researched a lot in this area like
+          using different fancy and efficient deep learning framwork to detection emotional stages. We pipelined people's models
+            to see if we can enhance the performace. Since the deep leanrning model part is not easy
+          to improve right now, we focus on the signal processing part like implementing and comparing different insightful ways
+          for data preprocessing including shuffling, taking base signal into consideration and projector the signal, etc.</dd>
+        </p>
 
         <h2>Publications</h2>
         
